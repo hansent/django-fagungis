@@ -1,6 +1,13 @@
+
 ===========================================================================
 django-fagungis: DJANGO + FAbric + GUnicorn + NGInx + Supervisor deployment
 ===========================================================================
+
+Note:
+============
+This repo has some modifications for my personal setup / needs, it is a fork of https://github.com/damianmoore/django-fagungis .  The original project can be found at:
+https://github.com/DNX/django-fagungis
+
 
 Introduction
 ============
@@ -17,11 +24,11 @@ django-fagungis will install and configure for you:
 
 * virtualenv
 
+
+
 Patches are welcome! Feel free to fork and contribute to this project on:
 
 **bitbucket**: `bitbucket.org/DNX/django-fagungis <https://bitbucket.org/DNX/django-fagungis/>`_
-
-
 **github**: `github.com/DNX/django-fagungis <https://github.com/DNX/django-fagungis>`_
 
 
@@ -34,11 +41,11 @@ Using pip
 ---------
 If you have pip install available on your system, just type::
 
-    pip install git+https://github.com/damianmoore/django-fagungis.git
+    pip install git+https://github.com/hansent/django-fagungis.git
 
 If you've already got an old version of Fagungis, and want to upgrade, use::
 
-    pip install -U git+https://github.com/damianmoore/django-fagungis.git
+    pip install -U git+https://github.com/hansent/django-fagungis.git
 
 Installing from a directory
 ---------------------------
